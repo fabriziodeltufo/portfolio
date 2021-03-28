@@ -39,18 +39,24 @@ body, html{
 /* portfolio */
 
 /* portfolio section */
-.portfolio{width: 100%; height: auto; padding: 10px; margin:80px auto; text-align: left;}
+.portfolio{width: 90%; height: auto; padding: 20px; margin: 0px auto; text-align: left;}
+.portfolio h1{font-size: 30px; padding-bottom: 10px ; border-bottom: 1px solid #fff; margin: 0; }
+.portfolio h2{font-size: 20px ; padding-bottom: 10px }
+.portfolio h3{font-size: 16px; padding-bottom:20px; font-weight: normal; border-bottom: 1px solid #fff; margin: 0;}
+
+
+
+
 
 /* portfolio card */
-.portfolio-card{display: flex; flex-wrap: wrap; justify-content: space-around;
-padding:10px; margin: 40px auto; text-align:center;  border: 1px solid #fff; border-radius: 5px; }
+.portfolio-card{display: flex; flex-wrap: wrap; justify-content: space-around; padding:10px; margin: 40px auto; text-align:center;  border: 1px solid #fff; border-radius: 5px; }
 
-.portfolio-title{flex-basis:100%; padding:10px; margin:0px; text-align: left;}
 .portfolio-image{flex-basis:100%; padding:0px; margin:0px; }
 .portfolio-image .img-resp{width: 100%; height: auto;}
 
-.portfolio-title h2{font-size: 25px ; }
-.portfolio-title h3{font-size: 20px; padding-bottom:20px; font-weight: lighter;}
+.portfolio-title{flex-basis:100%; padding:10px; margin:0px; text-align: left;}
+.portfolio-title h2{font-size: 25px ; margin: 0}
+.portfolio-title h3{font-size: 18px; padding-top:10px; font-weight: normal; border-bottom: 0px solid #fff;}
 .portfolio-title h4{font-size: 18px; padding-top:10px ; }
 .portfolio-title p{font-style: 15px;}
 .portfolio-title > a{color: #fffa00; font-size: 15px}
