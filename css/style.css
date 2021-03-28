@@ -11,8 +11,8 @@ body, html{
 
 /* portfolio section */
 .portfolio{width: 100%; height: auto; padding: 20px; margin: 0px auto; text-align: left;}
-.portfolio h1{font-size: 50px; border-bottom: 1px solid #fff; margin: 0; }
-.portfolio h2{font-size: 25px ;  }
+.portfolio h1{font-size: 50px; margin: 0; padding: 0; border-bottom: 1px solid #fff;}
+.portfolio h2{font-size: 25px; margin: 0}
 .portfolio h3{font-size: 20px; padding-bottom:20px; font-weight: lighter; border-bottom: 1px solid #fff; margin: 0;}
 .portfolio h4{font-size: 18px; padding-top:10px; }
 .portfolio p{font-style: 15px;}
@@ -26,7 +26,9 @@ body, html{
 .portfolio-title h3{border-bottom: 0px solid #fff;}
 
 /* footer */
-.footer{text-align: center; background-color: #fff; padding: 10px;}
+.footer{width: 100%; text-align: center; background-color: #fff;  color:#000; padding: 20px; }
+.socials{padding-top: 10px}
+.socials a {color: #000; padding: 5px}
 
 
 
@@ -40,9 +42,9 @@ body, html{
 
 /* portfolio section */
 .portfolio{width: 90%; height: auto; padding: 20px; margin: 0px auto; text-align: left;}
-.portfolio h1{font-size: 30px; padding-bottom: 10px ; border-bottom: 1px solid #fff; margin: 0; }
+.portfolio h1{font-size: 30px; padding-bottom: 10px ; margin: 0; }
 .portfolio h2{font-size: 20px ; padding-bottom: 10px }
-.portfolio h3{font-size: 16px; padding-bottom:20px; font-weight: normal; border-bottom: 1px solid #fff; margin: 0;}
+.portfolio h3{font-size: 16px; padding-bottom:20px; font-weight: normal;  margin: 0;}
 
 
 
@@ -60,7 +62,7 @@ body, html{
 .portfolio-title h4{font-size: 18px; padding-top:10px ; }
 .portfolio-title p{font-style: 15px;}
 .portfolio-title > a{color: #fffa00; font-size: 15px}
-  
+
 /* footer */
 .footer{text-align: center; background-color: #fff; padding: 10px; font-size: 12px}
 
