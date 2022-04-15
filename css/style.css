@@ -18,7 +18,9 @@ body, html{
 .portfolio h3{font-size: 20px; padding-bottom:20px; font-weight: lighter; border-bottom: 1px solid #fff; margin: 0;}
 .portfolio h4{font-size: 18px; padding-top:10px; }
 .portfolio p{font-style: 15px;}
-.portfolio a{text-decoration: none; color: #fffa00;font-weight: normal; font-size: 20px}
+.portfolio a{color: #fff;font-weight:lighter; font-size: 20px}
+.portfolio-title a{color: #fff;font-weight:lighter; font-size: 16px}
+
 
 /* portfolio card */
 .portfolio-card{display: flex; flex-wrap: wrap; justify-content: space-around; max-width:1300px ; padding:20px; margin: 40px auto; text-align:center;  border: 1px solid #fff; border-radius: 5px; background: rgba(0, 0, 0, 0.2);}
