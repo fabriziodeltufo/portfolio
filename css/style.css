@@ -24,10 +24,11 @@ body, html{
 
 /* portfolio card */
 .portfolio-card{display: flex; flex-wrap: wrap; justify-content: space-around; max-width:1300px ; padding:20px; margin: 40px auto; text-align:center;  border: 1px solid #fff; border-radius: 5px; background: rgba(0, 0, 0, 0.2);}
-.portfolio-image{flex-basis: 45%; padding:0px; margin: 0px; }
 .portfolio-title{flex-basis:45%; padding:10px; margin:0px; text-align: left;}
 .portfolio-title h2{font-size: 25px ; border-bottom: 1px solid #fff }
 .portfolio-title h3{border-bottom: 0px solid #fff;}
+.portfolio-image{flex-basis: 45%; padding:0px; margin: 0px; }
+
 
 /* footer */
 .footer{width: 100%; text-align: center;  color:#000; padding: 20px; }
@@ -38,18 +39,23 @@ body, html{
 /*  ----------------------------------------------- */
 /*   ! Hybrid  */
 /*  ----------------------------------------------- */
-@media(max-width: 1118px ) {
+@media(max-width: 1121px ) {
 
-  .portfolio-image{
-    margin-top: 30px;
-    margin-bottom:30px;
-  }
-  }
+.portfolio-title{
+  flex-basis:55%;
+}
 
-
-
+.portfolio-image{
+  margin-top: 30px;
+  margin-bottom:30px;
+}
 
 }
+
+
+
+
+
 
 
 /*  ----------------------------------------------- */
@@ -98,6 +104,8 @@ body, html{
 /* @media(max-width: 768px ) { */
 @media(max-width: 969px ) {
 
+.portfolio h1{font-size: 26px; padding-bottom: 10px ; margin: 0; }
+.portfolio h2{font-size: 18px ; padding-bottom: 10px }
 #description p{margin-bottom:10px;}
 
 }
@@ -110,8 +118,10 @@ body, html{
 
 @media(max-width: 667px ) {
 
+
 .portfolio-image{flex-basis:100%; padding:0px; margin:0px; margin-top:30px}
 .img-resp{width: 100%;height:auto;}
+
 
 }
 
