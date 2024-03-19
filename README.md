@@ -1,6 +1,5 @@
 # Fabrizio Del Tufo Web Portfolio
-Some websites created in past years using differents technologies:
-Joomla, WordPress, PHP, Javascript, Laravel, AI ChatGPT.
+List of Websites created using differents technologies:
+Joomla, WordPress, PHP, Javascript, Laravel, AI ChatGPT, Bootstrap.
 
-All commercials sites I worked on can be shown during interview.
-I'm not allowed to show them for privacy reason of my clients in my portfolio.
+Commercial Corporates Web Projects not listed in this portfolio can be shown during private job interviews or in wewebby.com private area with password provided by me during interview.
