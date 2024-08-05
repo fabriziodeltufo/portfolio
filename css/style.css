@@ -2,13 +2,12 @@
 -- @Fabrizio Del Tufo
 */
 
-
 body,
 html {
   max-width: 1400px;
   margin: 0 auto;
   /* font-family: 'Heebo', sans-serif; */
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   /* font-family: 'Oxygen', sans-serif; */
   background-color: #fff;
   color: #000;
@@ -23,12 +22,20 @@ img {
   padding-bottom: 10px;
 }
 
+/* portfolio section */
 
 #header {
-  margin-bottom: 50px
+  margin-bottom: 20px;
 }
 
-/* portfolio section */
+#description {
+  padding: 0;
+}
+
+#info {
+  font-size: 15px;
+}
+
 .portfolio {
   width: 100%;
   height: auto;
@@ -46,7 +53,7 @@ img {
 
 .portfolio h2 {
   font-size: 25px;
-  margin: 0
+  margin: 0;
 }
 
 .portfolio h3 {
@@ -68,9 +75,8 @@ img {
 .portfolio a {
   color: #ff8e3c;
   font-weight: bold;
-  font-size: 20px
+  font-size: 20px;
 }
-
 
 /* portfolio card */
 .portfolio-card {
@@ -96,7 +102,7 @@ img {
 
 .portfolio-title h2 {
   font-size: 25px;
-  border-bottom: 1px solid #fff
+  border-bottom: 1px solid #fff;
 }
 
 .portfolio-title a {
@@ -113,7 +119,9 @@ img {
   margin: 0px;
 }
 
-
+.rz-img {
+  margin: 20px;
+}
 /* footer */
 .footer {
   width: 100%;
@@ -123,20 +131,18 @@ img {
 }
 
 .socials {
-  padding-top: 10px
+  padding-top: 10px;
 }
 
 .socials a {
   color: #000;
-  padding: 5px
+  padding: 5px;
 }
-
 
 /*  ----------------------------------------------- */
 /*   ! Hybrid  */
 /*  ----------------------------------------------- */
-@media(max-width: 1121px) {
-
+@media (max-width: 1121px) {
   .portfolio-title {
     flex-basis: 55%;
   }
@@ -145,16 +151,12 @@ img {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-
 }
-
-
 
 /*  ----------------------------------------------- */
 /*   ! tablet  */
 /*  ----------------------------------------------- */
-@media(max-width: 1024px) {
-
+@media (max-width: 1024px) {
   /* portfolio */
 
   /* portfolio section */
@@ -174,7 +176,7 @@ img {
 
   .portfolio h2 {
     font-size: 20px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
   }
 
   .portfolio h3 {
@@ -216,7 +218,7 @@ img {
 
   .portfolio-title h2 {
     font-size: 25px;
-    margin: 0
+    margin: 0;
   }
 
   .portfolio-title h3 {
@@ -238,29 +240,23 @@ img {
   .portfolio-title a {
     /* color: #fff; */
     font-weight: lighter;
-    font-size: 18px
+    font-size: 18px;
   }
-
 
   /* footer */
   .footer {
     text-align: center;
     padding: 10px;
-    font-size: 12px
+    font-size: 12px;
   }
-
-
 }
-
-
 
 /*  ----------------------------------------------- */
 /*   ! Smartphone  */
 /*  ----------------------------------------------- */
 
 /* @media(max-width: 768px ) { */
-@media(max-width: 969px) {
-
+@media (max-width: 969px) {
   .portfolio h1 {
     font-size: 26px;
     padding-bottom: 10px;
@@ -269,74 +265,59 @@ img {
 
   .portfolio h2 {
     font-size: 18px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
   }
 
   #description p {
     margin-bottom: 10px;
   }
-
 }
-
-
 
 /*  ----------------------------------------------- */
 /*   ! Smartphone  */
 /*  ----------------------------------------------- */
 
-@media(max-width: 667px) {
-
-
+@media (max-width: 667px) {
   .portfolio-image {
     flex-basis: 100%;
     padding: 0px;
     margin: 0px;
-    margin-top: 30px
+    margin-top: 30px;
   }
 
   .img-resp {
     width: 100%;
     height: auto;
   }
-
-
 }
 
+/*  ----------------------------------------------- */
+/*   ! Smartphone  */
+/*  ----------------------------------------------- */
+
+@media (max-width: 487px) {
+}
 
 /*  ----------------------------------------------- */
 /*   ! Smartphone  */
 /*  ----------------------------------------------- */
 
-@media(max-width: 487px) {}
-
-
-
-/*  ----------------------------------------------- */
-/*   ! Smartphone  */
-/*  ----------------------------------------------- */
-
-@media(max-width: 400px) {}
+@media (max-width: 400px) {
+}
 
 /*  ----------------------------------------------- */
 /*   ! Smartphone  */
 /*  ----------------------------------------------- */
 
-@media(max-width: 388px) {}
-
-
-
+@media (max-width: 388px) {
+}
 
 /*  ----------------------------------------------- */
 /*   ! Smartphone  */
 /*  ----------------------------------------------- */
 
-@media(max-width: 347px) {}
-
-
-
-
-
-
+@media (max-width: 347px) {
+}
 
 /* ! Clearfix */
 .clearfix {
@@ -353,5 +334,4 @@ img {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-
 }
