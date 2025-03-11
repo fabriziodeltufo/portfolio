@@ -118,6 +118,11 @@ img {
 .portfolio-title h2 {
   font-size: 25px;
   border-bottom: 1px solid #fff;
+  padding-bottom: 15px;
+}
+
+.portfolio-title h3 {
+  padding-top: 15px;
 }
 
 .portfolio-title a {
