@@ -83,6 +83,11 @@ img {
   font-size: 20px;
 }
 
+.portfolio span {
+  color: #ff8e3c;
+  font-weight: bold;
+}
+
 .section {
   margin-top: 60px;
   margin-bottom: 20px;
