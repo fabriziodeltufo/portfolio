@@ -33,6 +33,11 @@ img {
   margin-bottom: 20px;
 }
 
+#description ul {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
 #info {
   font-size: 15px;
 }
