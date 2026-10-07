@@ -157,7 +157,7 @@
 
 
       <div class="section">
-        <h2>Automated High-Availability WordPress Deployment on AWS.</h2>
+        <h2>AWS WooCommerce High-Availability Architecture.</h2>
       </div>
 
 
@@ -199,6 +199,7 @@
 
       <!-- CARD -->
       <div class="portfolio-card">
+
         <div class="portfolio-title">
           <h2>AWS2 EC2 - Marina Store WooCommerce Website </h2>
           <br>
@@ -223,53 +224,70 @@
           <img class="img-resp" src="./img/screenshot-web/aws-ec2-marina-store.jpg" alt="AWS2 EC2 - Marina Store"
             width="570px" height="325px">
         </div>
+
         <div>
           <br><br>
           <strong><u>Please note: Due to hosting costs, this infrastructure is active Monday-Friday, 08:00 to 22:00 or
               on request, with a focus on cloud cost efficiency (FinOps Policy).</u></strong>
         </div>
+
       </div>
 
 
 
       <!-- CARD -->
       <div class="portfolio-card">
+
         <div class="portfolio-title">
           <h2>AWS Application Load Balancer + AWS RDS + S3 Bucket - Marina Store</h2>
           <br>
 
           <p>
-            AWS Application Load Balancer (ALB) applied to AWS1 and AWS2 (clone) environment.
-            <!-- <br><br> -->
-            <!-- Cloned the original EC2 from an AMI and provisioned the new independent instance with Terraform.
-            Reconfigured WordPress/WooCommerce, DNS and Let's Encrypt SSL/TLS for the new domain. -->
+            Evolved my Marina Store AWS infrastructure from a single EC2 instance to a load-balanced architecture using
+            AWS Application Load Balancer (ALB) across two Ubuntu EC2 instances.
             <br><br>
-            The ALB distributes incoming traffic, providing a more resilient and scalable architecture for the
-            e-commerce platform. AWS RDS and S3 permit DB and S3fs File system (wp-content/uploads) sharing among the 2
-            VM (splitting the web load).
+            Architecture: ALB + HTTPS/ACM → AWS1 & AWS2 → shared RDS database + shared S3 storage via s3fs.
             <br><br>
-
-            Tech: AWS EC2, AMI, Terraform, ALB, Ubuntu, Apache, PHP, MariaDB, WordPress, WooCommerce, DNS, SSL/TLS.
+            Terraform manages the infrastructure, while DNS and SSL are fully integrated into the deployment.
+            <br><br>
+            Focus: redundancy, scalability, reliability and cloud cost efficiency (FinOps).
+            <br><br>
+            A hands-on AWS project built around a real WooCommerce workload.
             <br><br>
           </p>
           <br>
           <hr>
           <h4>Technologies:</h4>
-          <p>Linux Ubuntu 26.04, Terraform, AWS EC2, VPC, Security Groups, Elastic IP, AMI Snapshots, Apache 2.4, PHP
-            8.5, MariaDB 11.8,
-            phpMyAdmin, WordPress, WooCommerce, Let's Encrypt SSL, SFTP.</p>
+          <p>
+            Terraform, AWS EC2, AWS AMI, AWS ALB, AWS RDS, AWS S3, AWS ACM, Linux Ubuntu 26.04, Apache, PHP, MariaDB,
+            WordPress, WooCommerce, DNS, SSL/TLS, VPC, Security Groups, phpMyAdmin.</p>
           <br>
           <a href="https://aws.wewebby.com/" target="_blank">Check the Website >>> </a>
         </div>
+
         <div class="portfolio-image">
-          <img class="img-resp" src="./img/screenshot-web/aws-ec2-alb+s3+rds.jpg" alt="AWS EC2 + Load Balancer"
-            width="570px" height="325px">
+          <img style="border: 1px solid gray;" class="img-resp" src="./img/screenshot-web/aws-ec2-alb+s3+rds.jpg"
+            alt="AWS EC2 + Load Balancer" width="600px" height="325px">
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img style="border: 1px solid gray;" class="img-resp" src="./img/screenshot-web/aws-slide1.jpg"
+                alt="AWS EC2 + Load Balancer" width="300px" height="420px">
+            </div>
+
+            <div class="portfolio-image">
+              <img style="border: 1px solid gray;" class="img-resp" src="./img/screenshot-web/aws-slide2.jpg"
+                alt="AWS EC2 + Load Balancer" width="300px" height="420px">
+            </div>
+          </div>
         </div>
+
         <div>
           <br><br>
           <strong><u>Please note: Due to hosting costs, this infrastructure is activated on request, with a strong focus
               on cloud cost efficiency (FinOps Policy).</u></strong>
         </div>
+
       </div>
 
       <br><br><br>
